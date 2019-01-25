@@ -21,13 +21,6 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "3813cc43-f5cd-4a3a-bb4c-0fcd6ba85a05",
-      "comment": "",
-      "command": "clickAt",
-      "target": "linkText=log in",
-      "targets": [],
-      "value": "log in"
-    }, {
       "id": "0c50b0b8-0026-4eb2-812e-11317fef9f4d",
       "comment": "",
       "command": "click",
@@ -40,6 +33,20 @@
         ["xpath=//a[contains(@href, '/login')]", "xpath:href"],
         ["xpath=//footer/a", "xpath:position"]
       ],
+      "value": ""
+    }, {
+      "id": "f1230b24-51d0-46dc-a50e-69bbf6843c38",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=username",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9a80ed43-df81-46bb-8271-1d4aaa3327b1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=password",
+      "targets": [],
       "value": ""
     }, {
       "id": "3bb92a11-5d5f-43ec-9705-23d8135a2660",
